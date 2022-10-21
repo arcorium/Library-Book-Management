@@ -1,0 +1,32 @@
+[[book]]
+title = "lili"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+author = "nahzim"
+years = 2020
+publisher = "alice"
+genre = "fiction"
+
+[[book]]
+title = "lala"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam a lectus ac tincidunt. Pellentesque vestibulum quam risus, vitae iaculis diam commodo ac. Sed at dui augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla feugiat ac nisi quis suscipit. Curabitur egestas elit vel suscipit gravida. Sed eget odio at nulla sodales imperdiet quis at arcu. Mauris eget mollis felis, ac pulvinar urna. Aliquam aliquam sapien urna, eu varius massa posuere non. Aliquam ante nulla, placerat in cursus in, tempus ut elit."
+author = "mizhan"
+years = 2000
+publisher = "Willy"
+genre = "programming"
+
+[[book]]
+title = "lala"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam a lectus ac tincidunt. Pellentesque vestibulum quam risus, vitae iaculis diam commodo ac. Sed at dui augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla feugiat ac nisi quis suscipit. Curabitur egestas elit vel suscipit gravida. Sed eget odio at nulla sodales imperdiet quis at arcu. Mauris eget mollis felis, ac pulvinar urna. Aliquam aliquam sapien urna, eu varius massa posuere non. Aliquam ante nulla, placerat in cursus in, tempus ut elit."
+author = "mizhan"
+years = 2000
+publisher = "Willy"
+genre = "programming"
+
+[[book]]
+title = "lulu"
+description = "mizhan ar nih bos"
+author = "mizhan"
+years = 2020
+publisher = "alice"
+genre = "fiction"
+

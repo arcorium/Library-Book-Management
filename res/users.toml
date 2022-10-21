@@ -1,0 +1,20 @@
+[[user]]
+username = "zhan"
+password = "zazan"
+privilege = "User"
+
+[[user]]
+username = "Mizhan"
+password = "mizmiz"
+privilege = "Admin"
+
+[[user]]
+username = "asd"
+password = "dsa"
+privilege = "User"
+
+[[user]]
+username = "dsa"
+password = "asd"
+privilege = "User"
+
