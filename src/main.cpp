@@ -1,15 +1,31 @@
 #include "utility.h"
-#include "interface/ftxui_interface.h"
 #include "system/application.h"
+#include <filesystem>
 
-#define TOML_EXCEPTIONS 0
+#include "interface/terminal_interface.h"
 #include "toml++/toml.h"
 
-int main()
+int main(int argc, char** argv)
 {
-	auto res = toml::parse_file("asd");
-	vz::Application app{};
-	vz::UserInterface* userInterace = new vz::FtxuiInterface{};
+	using namespace std::chrono_literals;
 
-	return app.Run(userInterace);
+	std::string folderpath{};
+	if (argc > 1)
+	{
+		folderpath = argv[1];
+
+		if (!folderpath.ends_with('/') || !folderpath.ends_with('\\'))
+			folderpath += "/";
+	}
+	else
+	{
+		folderpath = "./res/";
+	}
+
+	vz::println("Data Resource Path: ", folderpath);
+	vz::Application app{ new vz::TerminalInterace{} };
+	app.SetPath(folderpath);
+	std::this_thread::sleep_for(1000ms);
+
+	return app.Run();
 }
